@@ -44,4 +44,9 @@ def profile():
     return render_template('profile.html', message='Welcome')
 
 
+@app.route('/ner')
+def ner():
+    return "NER is here"
+
+
 app.run(debug=True)
