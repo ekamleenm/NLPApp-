@@ -25,7 +25,7 @@ def perform_regis():
     if response == 1:
         return "registration successful!"
     else:
-        return "email already exists"
+        return "email already exists :( Try Again"
 
 
 app.run(debug=True)
