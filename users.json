@@ -6,5 +6,13 @@
     "this@1234": [
         "this",
         "1234"
+    ],
+    "py@python.com": [
+        "python",
+        "pycharm"
+    ],
+    "ty@tyson": [
+        "ty",
+        "tyson"
     ]
 }

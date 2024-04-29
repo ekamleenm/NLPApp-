@@ -23,9 +23,9 @@ def perform_regis():
     passw = request.form.get('user_password')
     response = dbo.insert(name, email, passw)
     if response == 1:
-        return "registration successful!"
+        return render_template('login.html', message='Registration successful! Now Login ⤵')
     else:
-        return "email already exists :( Try Again"
+        return  render_template('register.html', message='Email already exists try again ⤵')
 
 
 app.run(debug=True)

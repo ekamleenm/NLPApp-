@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>NLPApp | Login Page</title>
 </head>
-<body style="background-color:#a296af">
+<body style="background-color:#7e91a1">
     <h1>NLPApp</h1>
     <h3>Login Here</h3>
+
+    {% if message %}
+        <p style="color:#1c1b1b">{{ message }}</p>
+    {% endif %}
+
     <form>
         <label>Email</label>
         <br>
